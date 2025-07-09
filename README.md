@@ -18,3 +18,13 @@ A comprehensive Streamlit application for encrypting, decrypting, and analyzing 
    ```bash
    git clone https://github.com/yourusername/caesar-cipher-tool.git
    cd caesar-cipher-tool
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Download NLTK data (for dictionary attacks):
+   ```bash
+   python -c "import nltk; nltk.download('words')"
+4. Usage
+Run the application with:
+```bash
+streamlit run main.py
